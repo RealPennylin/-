@@ -1,3 +1,4 @@
+2019.10.13
 vue 响应式：
 <div id="app">
         <p>{{message}}
@@ -18,3 +19,13 @@ vue 响应式：
     事件：  v-on ：click="";          语法糖：@click   坑！！！！？
             v-for="item in movies"   遍历
     
+            
+            
+2019.10.29：
+        mustache 语法：可直接写变量和简单的表达式。
+        v-pre : <h2 v-pre>{}}</h2>  不与mustache中的大括号冲突，完全将语句显示出来。
+        v-text:  功能用法==<h2 v-text="message"></h2>  会覆盖，少用。
+        v-once:  <h2 v-once>  只渲染一次，并且不会随着数据的改变而改变
+        v-html:  
+       
+        
